@@ -1,0 +1,21 @@
+.container
+{
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+}
+img{
+	width:450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 4s;
+}
+img:hover{
+
+	transform: scale(1.4);
+	animation-name: example;
+  animation-duration: 4s;
+}
+h1{
+	box-shadow: 4px 4px 5px blue;
+}
